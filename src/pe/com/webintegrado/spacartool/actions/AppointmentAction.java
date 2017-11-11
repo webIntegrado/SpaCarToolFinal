@@ -10,18 +10,6 @@ public class AppointmentAction extends ActionSupport {
     private String dateCreated;
     private String dateDelivery;
 
-    public AppointmentAction(int id,
-                             String title,
-                             String description,
-                             String dateCreated,
-                             String dateDelivery) {
-        this.id = id;
-        this.title = title;
-        this.description = description;
-        this.dateCreated = dateCreated;
-        this.dateDelivery = dateDelivery;
-    }
-
     public int getId() {
         return id;
     }

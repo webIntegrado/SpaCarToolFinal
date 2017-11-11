@@ -10,18 +10,6 @@ public class VehiculeAction extends ActionSupport {
     private String brand;
     private String plate;
 
-    public VehiculeAction(int id,
-                          String model,
-                          String color,
-                          String brand,
-                          String plate) {
-        this.id = id;
-        this.model = model;
-        this.color = color;
-        this.brand = brand;
-        this.plate = plate;
-    }
-
     public int getId() {
         return id;
     }

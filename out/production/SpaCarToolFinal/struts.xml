@@ -5,4 +5,17 @@
         "http://struts.apache.org/dtds/struts-2.5.dtd">
 
 <struts>
+    <package name="default" extends="struts-default">
+        <action name="index">
+            <result>index.jsp</result>
+        </action>
+        <action name="login" class="pe.com.webintegrado.spacartool.actions.LoginAction">
+            <result name="success">home_screen.jsp</result>
+            <result name="input">index.jsp</result>
+        </action>
+        <action name="singup" class="pe.com.webintegrado.spacartool.actions.SingUp">
+            <result name="success">index.jsp</result>
+            <result name="input">sing_up_screen.jsp</result>
+        </action>
+    </package>
 </struts>

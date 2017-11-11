@@ -4,8 +4,9 @@ import com.opensymphony.xwork2.ActionSupport;
 
 //DrivenSupport implements
 
-public class UserAction extends ActionSupport {
+public class SingUp extends ActionSupport {
     private int id;
+    private String password;
     private String firstName;
     private String lastName;
     private int phone;
@@ -13,20 +14,12 @@ public class UserAction extends ActionSupport {
     private String email;
     private int dni;
 
-    public UserAction(int id,
-                      String firstName,
-                      String lastName,
-                      int phone,
-                      String address,
-                      String email,
-                      int dni) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.phone = phone;
-        this.address = address;
-        this.email = email;
-        this.dni = dni;
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public int getId() {

@@ -10,18 +10,6 @@ public class AutoShopAction extends ActionSupport {
     private String address;
     private String shopType;
 
-    public AutoShopAction(int id,
-                          String shop_name,
-                          String description,
-                          String address,
-                          String shopType) {
-        this.id = id;
-        this.shop_name = shop_name;
-        this.description = description;
-        this.address = address;
-        this.shopType = shopType;
-    }
-
     public int getId() {
         return id;
     }
