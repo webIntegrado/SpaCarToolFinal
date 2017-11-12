@@ -2,7 +2,7 @@ package pe.com.webintegrado.spacartool.actions;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-public class AppointmentAction extends ActionSupport {
+public class CreateAppointmentAction extends ActionSupport {
 
     private int id;
     private String title;

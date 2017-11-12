@@ -17,5 +17,8 @@
             <result name="success">index.jsp</result>
             <result name="input">sing_up_screen.jsp</result>
         </action>
+        <action name="createAppointment" class="pe.com.webintegrado.spacartool.actions.CreateAppointmentAction">
+            <result name="success">create_appointment_screen.jsp</result>
+        </action>
     </package>
 </struts>

@@ -2,7 +2,7 @@ package pe.com.webintegrado.spacartool.actions;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-public class AutoShopAction extends ActionSupport {
+public class ListAutoShopAction extends ActionSupport {
 
     private int id;
     private String shop_name;
