@@ -92,7 +92,7 @@
             <img src="/w3images/mist.jpg" style="width:100%">
             <img src="/w3images/paris.jpg" style="width:100%">
         </div>
-        
+
     </div>
 </body>
 </html>
