@@ -49,7 +49,7 @@
             text-align: center;
             padding: 32px;
         }
-        /* Create two equal columns that floats next to each other */
+
         .column {
             float: left;
             width: 50%;
@@ -58,13 +58,6 @@
 
         .column img {
             margin-top: 12px;
-        }
-
-        /* Clear floats after the columns */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
         }
     </style>
 </head>
@@ -79,20 +72,12 @@
 <div class="header">
     <p>Elige alguno de tus vehiculos</p>
 </div>
-
-    <div class="row">
         <div class="column">
             <a href="vehicule_detail_screen.jsp">
-                <img src="/w3images/wedding.jpg" style="width:100%">
+                <img src="https://cdn.pixabay.com/photo/2017/11/09/16/58/auto-2934064__340.jpg" style="width:100%">
             </a>
-            <img src="/w3images/rocks.jpg" style="width:100%">
-            <img src="/w3images/falls2.jpg" style="width:100%">
-            <img src="/w3images/paris.jpg" style="width:100%">
-            <img src="/w3images/nature.jpg" style="width:100%">
-            <img src="/w3images/mist.jpg" style="width:100%">
-            <img src="/w3images/paris.jpg" style="width:100%">
+            <img src="https://image.shutterstock.com/display_pic_with_logo/1656658/387793576/stock-photo-car-on-asphalt-road-in-summer-387793576.jpg" style="width:100%">
+            <img src="https://image.shutterstock.com/display_pic_with_logo/335731/229428385/stock-photo-retro-car-parked-in-old-european-city-street-229428385.jpg" style="width:100%">
         </div>
-        
-    </div>
 </body>
 </html>
